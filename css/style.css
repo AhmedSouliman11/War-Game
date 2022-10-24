@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #333;
+}
+
+body , h2 , button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.person {
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid rgb(0, 255, 4);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.person h2 {
+    font-size: 30px;
+    margin: 20px 0;
+} 
+
+.person .progress {
+    background-color: #888;
+    height: 30px;
+    display: flex;
+}
+
+.person .progress span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    color: #fff;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.person img {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.person button {
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #000;
+    border: 0;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.person button:hover {
+    background-color: #f6f6f6;
+    color: #333;
+    padding: 9px;
+    border: 1px solid #333;
+}
